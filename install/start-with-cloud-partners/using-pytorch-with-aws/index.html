@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title> Home</title>
+  <title> Using PyTorch with AWS</title>
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -35,24 +35,22 @@ img.emoji {
 	padding: 0 !important;
 }</style>
 	<link rel="stylesheet" id="pytorch-classic-style-css" href="/wp-content/themes/pytorch/assets/css/index.css?ver=1" type="text/css" media="all">
-<link rel="stylesheet" id="pytorch-header-css" href="/wp-content/themes/pytorch/assets/css/header.css?ver=1" type="text/css" media="all">
-<link rel="stylesheet" id="pytorch-card-grid-icon-card-css" href="/wp-content/themes/pytorch/assets/css/card-grid-icon-card.css?ver=1" type="text/css" media="all">
-<link rel="stylesheet" id="pytorch-install-graph-css" href="/wp-content/themes/pytorch/assets/css/install-graph.css?ver=1" type="text/css" media="all">
-<link rel="stylesheet" id="pytorch-card-grid-horizontal-card-css" href="/wp-content/themes/pytorch/assets/css/card-grid-horizontal-card.css?ver=1" type="text/css" media="all">
-<link rel="stylesheet" id="pytorch-image-caption-css" href="/wp-content/themes/pytorch/assets/css/image-caption.css?ver=1" type="text/css" media="all">
-<link rel="stylesheet" id="pytorch-sign-up-form-css" href="/wp-content/themes/pytorch/assets/css/sign-up-form.css?ver=1" type="text/css" media="all">
+<link rel="stylesheet" id="pytorch-heading-css" href="/wp-content/themes/pytorch/assets/css/heading.css?ver=1" type="text/css" media="all">
+<link rel="stylesheet" id="pytorch-text-css" href="/wp-content/themes/pytorch/assets/css/text.css?ver=1" type="text/css" media="all">
+<link rel="stylesheet" id="pytorch-blog-list-css" href="/wp-content/themes/pytorch/assets/css/blog-list.css?ver=1" type="text/css" media="all">
 <link rel="stylesheet" id="mediaelement-css" href="/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.16" type="text/css" media="all">
 <link rel="stylesheet" id="wp-mediaelement-css" href="/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.8.2" type="text/css" media="all">
+<link rel="stylesheet" id="mkaz-code-syntax-prism-css-css" href="/wp-content/plugins/code-syntax-block/assets/prism-ghcolors.css?ver=1634724676" type="text/css" media="all">
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/191">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/2476">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.8.2">
-<link rel="canonical" href="/">
-<link rel="shortlink" href="/">
+<link rel="canonical" href="/install/start-with-cloud-partners/using-pytorch-with-aws/">
+<link rel="shortlink" href="/?p=2476">
 </head>
 
-<body class="home page-template page-template-templates page-template-template-home page-template-templatestemplate-home-php page page-id-191">
+<body class="page-template page-template-templates page-template-template-single-jump-list page-template-templatestemplate-single-jump-list-php page page-id-2476 page-child parent-pageid-81">
     <a href="#main">Skip to content</a>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52DXT37" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -414,574 +412,361 @@ img.emoji {
 
 	<main id="main" class="site-main" role="main">
 
-<div class="content-container">
-  
-<div class="Header layout-header-a">
-	
-	<div class="background " style="background-image: url('/wp-content/uploads/2021/09/Artboard-1-100-11-1.png');"></div>
-<div class="content hasImage">
-			
-Notice: Undefined index: showEyebrow in /var/www/html/wp-content/themes/pytorch/src/_components/header.php on line 20
-		<h2 class="heading">
-							<span class="line-1">FROM RESEARCH</span>
-						
-Notice: Undefined index: showTitle2 in /var/www/html/wp-content/themes/pytorch/src/_components/header.php on line 29
-		</h2>
-	
-	
-Notice: Undefined index: showDescription in /var/www/html/wp-content/themes/pytorch/src/_components/header.php on line 35
-	
-Notice: Undefined index: showCta1 in /var/www/html/wp-content/themes/pytorch/src/_components/header.php on line 38
-</div>
-</div>
-
-
-
-  
-
-
-<div class="CardCarousel CardCarousel is-slider" data-limit="3">
-	<div class="container">
-					<h2 class="heading">WHAT&#039;S NEW</h2>
-											</div>
-	<div class="carousel-container container">
-		<div class="carousel">
-			<div class="row">
-									<div class="card-container">
-						
-<div class="Card card- ">
-	<div class="thumbnail">
-		
-<img class="Image image" src="/wp-content/uploads/2021/09/Asset-22.png" alt="">
+  	<div class="Navigation is-style-secondary">
+		<ul class="menu">
+							<li class="">
+					<a href="/install/install-overview/">Overview</a>
+				</li>
+							<li class="">
+					<a href="/install/install-locally/">Install Locally</a>
+				</li>
+							<li class="">
+					<a href="/install/install-mobile/">Install Mobile</a>
+				</li>
+							<li class="">
+					<a href="/install/previous-pytorch-versions/">Previous PyTorch Versions</a>
+				</li>
+							<li class="current-menu-item">
+					<a href="/install/start-with-cloud-partners/">Start with Cloud Partners</a>
+				</li>
+							<li class="">
+					<a href="/install/previous-versions/">Previous PyTorch Versions</a>
+				</li>
+					</ul>
 	</div>
 
-	<div class="card-content">
-					<h3 class="postTypeLabel">Blog</h3>
-									<p class="description">PyTorch 1.9 Release, including torch.linalg and Mobile Interpreter sed do eiusmod tempor&#8230;</p>
-			</div>
+	<article id="post-2476" class="post-2476 page type-page status-publish hentry">
+		<div class="entry-content">
 
-	<div class="card-footer">
-
-								<span class="date">Aug 03, 2021</span>
-			
-							<span class="author">Author Name 1</span>
+      <div class="two-column-container">
+        
+<div class="jump-list-container">
+	<div class="jump-list-mobile-heading-container">
+		<h2 class="jump-list-mobile-heading">TABLE OF CONTENTS</h2>
+	</div>
+	<ul class="jump-list">
+				<li>
+			<ul class="jump-list-links">
+									<li class="jump-list-single">
 					
-			</div>
-	</div>
-					</div>
-									<div class="card-container">
-						
-<div class="Card card- ">
-	<div class="thumbnail">
-		
-<img class="Image image" src="/wp-content/uploads/2021/09/headway-F2KRf_QfCqw-unsplash-2.png" alt="">
-	</div>
-
-	<div class="card-content">
-					<h3 class="postTypeLabel">EVENT</h3>
-									<p class="description">PyTorch Summer Hackathon 2021 Open for Registration</p>
-			</div>
-
-	<div class="card-footer">
-
-								
-<a class="Link cta-link" href="http://google.com/" target="_self">
-  Learn More  <svg role="img" width="8" height="14" viewbox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.808594 1.125L6.30859 7.125L0.808592 13.125" stroke="#DE3412" stroke-width="1.5"></path>
-</svg>
-</a>					
-			</div>
-			<a class="card-link" href="http://google.com/" target="_self" aria-label="View EVENT: PyTorch Summer Hackathon 2021 Open for Registration"></a>
-	</div>
-					</div>
-									<div class="card-container">
-						
-<div class="Card card- ">
-	<div class="thumbnail">
-		
-<img class="Image image" src="/wp-content/uploads/2021/09/Example-Video-Screenshot.png" alt="">
-	</div>
-
-	<div class="card-content">
-									<p class="description">Five Ways To Increase Your Model Performance Using PyTorch Profiler</p>
-			</div>
-
-	<div class="card-footer">
-
-						
-			</div>
-	</div>
-					</div>
-									<div class="card-container">
-						
-<div class="Card card- ">
-	<div class="thumbnail">
-		
-<img class="Image image" src="/wp-content/uploads/" alt="">
-	</div>
-
-	<div class="card-content">
-					<h3 class="postTypeLabel">Blog</h3>
-							<h4 class="title">Post 23</h4>
-							<p class="description">Post content content 2</p>
-			</div>
-
-	<div class="card-footer">
-
-								<span class="date">Aug 02, 2021</span>
-			
-							<span class="author">Rodrigo Techera</span>
+											<a href="#block-c4579f83-7c2d-4331-ab64-d0fe579be43d" class="jump-link level-1" data-blockid="#block-c4579f83-7c2d-4331-ab64-d0fe579be43d">
+						Using PyTorch with AWS						</a>
+															</li>
+									<li class="jump-list-single">
 					
-					<div class="tags">
-																																																																			</div>
-			</div>
-			<a class="card-link" href="/post-2/" target="_self" aria-label="View Blog Post 23: Post content content 2"></a>
-	</div>
-					</div>
-									<div class="card-container">
-						
-<div class="Card card- ">
-	<div class="thumbnail">
-		
-<img class="Image image" src="/wp-content/uploads/2021/09/Asset-22.png" alt="">
-	</div>
-
-	<div class="card-content">
-					<h3 class="postTypeLabel">Blog</h3>
-							<h4 class="title">Post 1</h4>
-					</div>
-
-	<div class="card-footer">
-
-								<span class="date">Aug 02, 2021</span>
-			
-							<span class="author">Vittoria Melloni</span>
+											<a href="#block-13cd32b4-72cc-4276-a933-767c8aceeb60" class="jump-link level-1" data-blockid="#block-13cd32b4-72cc-4276-a933-767c8aceeb60">
+						QUICK START ON DEEP LEARNING AMI						</a>
+															</li>
+									<li class="jump-list-single">
 					
-					<div class="tags">
-																																																																			</div>
-			</div>
-			<a class="card-link" href="/post-1/" target="_self" aria-label="View Blog Post 1"></a>
-	</div>
-					</div>
-							</div>
-		</div>
-					<div class="swiper-pagination"></div>
-<div class="swiper-navigation">
-	<button type="button" class="swiper-button swiper-button-prev"></button>
-	<button type="button" class="swiper-button swiper-button-next"></button>
-</div>			</div>
+											<a href="#block-2808f7d8-0dca-4785-ae18-c65388a424e6" class="jump-link level-1" data-blockid="#block-2808f7d8-0dca-4785-ae18-c65388a424e6">
+						Quick Start Verification						</a>
+															</li>
+									<li class="jump-list-single">
+					
+											<a href="#block-9e1021d0-b9c7-469f-b24d-40e00d7154b3" class="jump-link level-1" data-blockid="#block-9e1021d0-b9c7-469f-b24d-40e00d7154b3">
+						AWS PRIMER						</a>
+															</li>
+									<li class="jump-list-single">
+					
+											<a href="#block-c66caf26-8496-40f9-a00c-33f3ffc08b1d" class="jump-link level-1" data-blockid="#block-c66caf26-8496-40f9-a00c-33f3ffc08b1d">
+						AWS Inferentia-based instances						</a>
+															</li>
+									<li class="jump-list-single">
+					
+											<a href="#block-19c6ae6a-b3f9-49fb-a2a4-7c5879aa1ebe" class="jump-link level-1" data-blockid="#block-19c6ae6a-b3f9-49fb-a2a4-7c5879aa1ebe">
+						GPU-based instances						</a>
+															</li>
+									<li class="jump-list-single">
+					
+											<a href="#block-a6b12adf-fc35-4a2e-9d87-8b6022a705fd" class="jump-link level-1" data-blockid="#block-a6b12adf-fc35-4a2e-9d87-8b6022a705fd">
+						Creating and Launching an Instance						</a>
+															</li>
+									<li class="jump-list-single">
+					
+											<a href="#block-ff8971c9-710b-47c8-9bab-6aa03de24b75" class="jump-link level-1" data-blockid="#block-ff8971c9-710b-47c8-9bab-6aa03de24b75">
+						AWS SAGEMAKER						</a>
+															</li>
+									<li class="jump-list-single">
+					
+											<a href="#block-188c13a2-c9c0-44df-98a9-681ba5c889ed" class="jump-link level-1" data-blockid="#block-188c13a2-c9c0-44df-98a9-681ba5c889ed">
+						PRE-BUILT AMIS						</a>
+															</li>
+									<li class="jump-list-single">
+					
+											<a href="#block-72e10240-e2b7-48e8-bbf8-ea67e8713eca" class="jump-link level-1" data-blockid="#block-72e10240-e2b7-48e8-bbf8-ea67e8713eca">
+						INSTALLING PYTORCH FROM SCRATCH						</a>
+															</li>
+							</ul>
+		</li>
+	</ul>
 </div>
 
-
-
-<div class="CardGrid CardGridIconCard is-style-horizontal CardGridIconCard block-">
-	<div class="container">
+        <div class="content">
+          <div class="
+Notice: Undefined variable: style in /var/www/html/wp-content/themes/pytorch/src/blocks/heading/index.php on line 33
+">
+<h2 class="HeadingBlock Heading is-style-secondary-heading HeadingBlock " id="block-33697e5a-11a9-406e-b666-194f516c994f">
 		
-	<div class="Caption ">
-					<h3 class="heading">WHAT IS PYTORCH</h3>
-							<p class="description">PyTorch is an open source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.</p>
-					</div>
-		<div class="Repeater">
-							
-<div class="IconCard card-item">
+	Using PyTorch with AWS</h2>
+	</div>
 
-	<div class="thumbnail">
+
+
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text">To gain the full experience of what PyTorch has to offer, a machine with at least one dedicated NVIDIA GPU is necessary. While it is not always practical to have your own machine with these specifications, there are our cloud based solutions to allow you to test and use PyTorch’s full features.<br><br>AWS <a href="https://aws.amazon.com/machine-learning/amis/">provides</a> both:</p>
+	</div>
+</div>
+
+
+<div class="blog-list-container blog-list-container">
+	<div class="container">
+		<ul class="list unordered-list indent-con">
+												<li class="item">Deep Learning AMIs: dedicated, pre-built machine learning instances, complete with PyTorch								</li>
+												<li class="item">Deep Learning Base AMI: bare Linux and Windows instances for you to do a custom install of PyTorch.								</li>
+					</ul>
+	</div>
+</div>
+
+
+<div class="">
+<h3 class="HeadingBlock Heading is-style-section-heading HeadingBlock " id="block-9a7ccb16-b471-4b3e-b883-0c23f70f72e8">
 		
-<img class="Image image" src="/wp-content/uploads/2021/09/icon-2.png" alt="">
+	QUICK START ON DEEP LEARNING AMI</h3>
 	</div>
 
-				<h3 class="title">Robust Ecosystem</h3>
-	
-				<p class="description">A rich ecosystem of tools and libraries extends PyTorch and supports development in computer vision, NLP and more.</p>
-	</div>
-							
-<div class="IconCard card-item">
 
-	<div class="thumbnail">
+
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text">If you want to get started with a Linux AWS instance that has PyTorch already installed and that you can login into from the command-line, this step-by-step guide will help you do that.</p>
+	</div>
+</div>
+
+
+<div class="blog-list-container blog-list-container is-style-bigger-text">
+	<div class="container">
+		<ul class="list  indent-con">
+												<li class="item">Sign into your <a href="https://aws.amazon.com/console/">AWS console</a>. If you do not have an AWS account, see the <a href="https://pytorch.org/get-started/cloud-partners/#aws-primer">primer</a> below.								</li>
+												<li class="item">Click on <code>Launch a virtual machine</code>.								</li>
+												<li class="item">Select <code>Deep Learning AMI (Ubuntu)</code>.<br>					
+<div class="TextBlock is-style-code-text">
+	<div class="container">
+				<p class="rich-text"><em>This gives you an instance with a pre-defined version of PyTorch already installed. If you wanted a bare AWS instance that required PyTorch to be installed, you could choose the </em><code>Deep Learning Base AMI (Ubuntu)</code><em>, which will have the hardware, but none of the software already available.</em></p>
+	</div>
+</div>								</li>
+												<li class="item">Choose a GPU compute <code>p3.2xlarge</code> instance type.					
+<div class="TextBlock is-style-code-text">
+	<div class="container">
+				<p class="rich-text"><em>You can choose any of the available instances to try PyTorch, even the free-tier, but it is recommended for best performance that you get a GPU compute or Compute optimized instance. Other instance options include the Compute Optimized c5-series (e.g., </em><code>c5.2xlarge</code><em>) or the General Compute t2-series or t3-series (e.g., </em><code>t2.2xlarge</code><em>). It is important to note that if you choose an instance without a GPU, PyTorch will only be running in CPU compute mode, and operations may take much, much longer.</em></p>
+	</div>
+</div>								</li>
+												<li class="item">Click on <code>Review and Launch</code>.													</li>
+												<li class="item">Review the instance information and click <code>Launch</code>.													</li>
+												<li class="item">You will want to <code>Create a new key pair</code> if you do not have one already to use. Pick a name and download it locally via the <code>Download Key Pair</code> button.													</li>
+												<li class="item">Now click on <code>Launch Instances</code>. You now have a live instance to use for PyTorch. If you click on <code>View Instances</code>, you will see your running instance.													</li>
+												<li class="item">Take note of the <code>Public DNS</code> as this will be used to <code>ssh</code> into your instance from the command-line.													</li>
+												<li class="item">Open a command-line prompt													</li>
+												<li class="item">Ensure that your key-pair has the proper permissions, or you will not be able to log in. Type <code>chmod 400 path/to/downloaded/key-pair.pem</code>.													</li>
+												<li class="item">Type <code>ssh -i path/to/downloaded/key-pair.pem ubuntu@&lt;Public DNS that you noted above&gt;</code>. e.g., <code>ssh -i ~/Downloads/aws-quick-start.pem ubuntu@ec2-55-181-112-129.us-west-2.compute.amazonaws.com</code>. If asked to continue connection, type <code>yes</code>.													</li>
+												<li class="item">You should now see a prompt similar to <code>ubuntu@ip-100-30-20-95</code>. If so, you are now connected to your instance.													</li>
+												<li class="item">Verify that PyTorch is installed by running the <a href="https://pytorch.org/get-started/cloud-partners/#quick-start-verification">verification steps below</a>.					
+<div class="TextBlock is-style-code-text">
+	<div class="container">
+				<p class="rich-text"><em>If you chose the </em><code>Deep Learning Base AMI (Ubuntu)</code><em> instead of the </em><code>Deep Learning AMI (Ubuntu)</code><em>, then you will need to install PyTorch. Follow the </em><a href="https://pytorch.org/get-started">Linux getting started instructions</a><em> in order to install it.</em></p>
+	</div>
+</div>								</li>
+					</ul>
+	</div>
+</div>
+
+
+<div class="">
+<h3 class="HeadingBlock Heading is-style-subheading HeadingBlock " id="block-5a49d9ba-6eb4-430b-a7e2-fdea600b9195">
 		
-<img class="Image image" src="/wp-content/uploads/2021/09/C.png" alt="">
+	Quick Start Verification</h3>
 	</div>
 
-				<h3 class="title">C++ Front-End</h3>
-	
-				<p class="description">PyTorch is well supported on major cloud platforms, providing frictionless development and easy scaling.</p>
-	</div>
-							
-<div class="IconCard card-item">
 
-	<div class="thumbnail">
+
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text">To ensure that PyTorch was installed correctly, we can verify the installation by running sample PyTorch code. Here we will construct a randomly initialized tensor.</p>
+	</div>
+</div>
+
+<div class="code-block">
+<pre class="wp-block-code"><code lang="bash" class="language-bash">import torch
+x = torch.rand(5, 3)
+print(x)</code></pre>
+</div>
+
+
+
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text">You may prefer to start with a bare instance to install PyTorch. Once you have connected to your instance, setting up PyTorch is the same as u003ca href=u0022https://pytorch.org/get-started/cloud-partners/get-startedu0022u003esetting up locallyu003c/au003e for your operating system of choice.</p>
+	</div>
+</div>
+
+<div class="code-block">
+<pre class="wp-block-code"><code lang="bash" class="language-bash">tensor([[0.3380, 0.3845, 0.3217],
+        [0.8337, 0.9050, 0.2650],
+        [0.2979, 0.7141, 0.9069],
+        [0.1449, 0.1132, 0.1375],
+        [0.4675, 0.3947, 0.1426]])</code></pre>
+</div>
+
+
+
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text"></p>
+	</div>
+</div>
+
+<div class="code-block">
+<pre class="wp-block-code"><code lang="bash" class="language-bash">import torch
+torch.cuda.is_available()</code></pre>
+</div>
+
+<div class="">
+<h3 class="HeadingBlock Heading is-style-section-heading HeadingBlock " id="block-37e1bd96-0f36-457f-9939-bf93d7277258">
 		
-<img class="Image image" src="/wp-content/uploads/2021/09/icon-1.png" alt="">
+	AWS PRIMER</h3>
 	</div>
 
-				<h3 class="title">Production Ready</h3>
-	
-				<p class="description">Transition seamlessly between eager and graph modes with TorchScript, and accelerate the path to production with TorchServe.</p>
-	</div>
-							
-<div class="IconCard card-item">
 
-	<div class="thumbnail">
+
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text">Generally, you will be using Amazon Elastic Compute Cloud (or <a href="https://aws.amazon.com/ec2/?ec2-whats-new.sort-by=item.additionalFields.postDateTime&amp;ec2-whats-new.sort-order=desc">EC2</a>) to spin up your instances. Amazon has various <a href="https://aws.amazon.com/ec2/instance-types/">instance types</a>, each of which are configured for specific use cases. For PyTorch, it is highly recommended that you use the accelerated computing instances that feature GPUs or custom AI/ML accelerators as they are tailored for the high compute needs of machine learning.<br><br>In order to use AWS, you need to set up an <a href="https://aws.amazon.com/getting-started/">AWS account</a>, if you do not have one already. You will create a username (your email address), password and an AWS account name (since you can create multiple AWS accounts for different purposes). You will also provide contact and billing information. The billing information is important because while AWS does provide what they call “free-tier” instances, to use PyTorch you will want more powerful, paid instances.<br><br>Once you are logged in, you will be brought to your <a href="https://aws.amazon.com/console/">AWS console</a>. You can even learn more about AWS through a set of <a href="https://aws.amazon.com/getting-started/tutorials/">simple tutorials</a>.</p>
+	</div>
+</div>
+
+<div class="">
+<h3 class="HeadingBlock Heading is-style-subheading HeadingBlock " id="block-d0ad9e00-60e3-45ca-814f-7bbf3c44b4ed">
 		
-<img class="Image image" src="/wp-content/uploads/2021/09/icon.png" alt="">
+	AWS Inferentia-based instances</h3>
 	</div>
 
-				<h3 class="title">Distributed Training</h3>
-	
-				<p class="description">Scalable distributed training and performance optimization in research and production is enabled by the torch.distributed backend.</p>
+
+
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text"><a href="https://aws.amazon.com/machine-learning/inferentia/">AWS Inferentia</a> is a chip custom built by AWS to provide higher performance and low cost machine learning inference in the cloud. <a href="https://aws.amazon.com/ec2/instance-types/inf1/">Amazon EC2 Inf1 instances</a> feature up to 16 AWS Inferentia chips, the latest second generation Intel Xeon Scalable processors, and up to 100 Gbps networking to enable high throughput and lowest cost inference in the cloud. You can use Inf1 instances with Amazon SageMaker for a fully managed workflow, or use the <a href="https://awsdocs-neuron.readthedocs-hosted.com/en/latest/">AWS Neuron SDK</a> directly which is integrated with PyTorch.</p>
 	</div>
-					</div>
-
-			</div>
 </div>
 
-
-
-<div class="InstallGraph row-background-dark has-content">
-	<div class="container">
-					<div class="content-container">
-									<h3 class="heading">INSTALL PYTORCH</h3>
-													<ol class="steps">
-																					<li class="step">Select your preferences</li>
-																												<li class="step">Copy and paste the “Run This Command” code</li>
-																		</ol>
-													<ul class="instructions">
-																					<li class="instruction">Stable represents the most currently tested and supported version of PyTorch. This should be suitable for many users.</li>
-																												<li class="instruction">Preview is available if you want the latest, not fully tested and supported, 1.10 builds that are generated nightly. </li>
-																												<li class="instruction">Please ensure that you have met the prerequisites below (e.g., numpy), depending on your package manager. Anaconda is our recommended package manager since it installs all dependencies.</li>
-																												<li class="instruction">Note that LibTorch is only available for C++.</li>
-																		</ul>
-													
-<a class="Link cta button-square-caret Button button-square" target="_self">
-  Previous Versions of PyTorch  <svg role="img" width="8" height="14" viewbox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.808594 1.125L6.30859 7.125L0.808592 13.125" stroke="#DE3412" stroke-width="1.5"></path>
-</svg>
-</a>							</div>
-				
-Notice: Undefined index: footer in /var/www/html/wp-content/themes/pytorch/src/blocks/install-graph/index.php on line 68
-
-Notice: Undefined index: backgroundClass in /var/www/html/wp-content/themes/pytorch/src/blocks/install-graph/index.php on line 68
-
-
-<div class="InstallGraphGrid ">
-            <div class="row build">
-            <span class="heading">Pytorch Build</span>
-            <div class="options">
-                                    <div class="option" data-id="stable">Stable</div>
-                                    <div class="option" data-id="nightly">Preview (Nightly)</div>
-                                    <div class="option" data-id="lts">LTS</div>
-                            </div>
-        </div>
-        <div class="row command">
-        <span class="heading">Run This<br>Command:</span>
-        <div class="options">
-        <div class="option"></div>
-        </div>
-    </div>
-		 
-</div>	</div>
-</div>
-
-
-
-<div class="CardGrid CardGridHorizontalCard CardGridHorizontalCard CardGridHorizontalCard CardGridHorizontalCard CardGridHorizontalCard CardGridHorizontalCard CardGridHorizontalCard CardGridHorizontalCard CardGridHorizontalCard CardGridHorizontalCard block-">
-	<div class="container">
+<div class="">
+<h3 class="HeadingBlock Heading is-style-subheading HeadingBlock " id="block-1596a089-1f06-4560-9a2b-57be90bbb654">
 		
-	<div class="Caption ">
-					<h3 class="heading">Our Community</h3>
-							<p class="description">Join the PyTorch developer community to contribute, learn, and get your questions answered.</p>
-					</div>
-		<div class="Repeater">
-							
-  <a class="HorizontalCard card-item" target="_blank">
-
-    <div class="thumbnail">
-      
-<img class="Image image" src="/wp-content/uploads/2021/09/Shape-1.png" alt="">
-    </div>
-
-    <div class="content">
-              <h3 class="title">PyTorchDiscuss (Forum)</h3>
-      
-                <p class="description">Browse and join discussions on deep learning with PyTorch.</p>
-            </div>
-  </a>
-							
-  <a class="HorizontalCard card-item" target="_blank">
-
-    <div class="thumbnail">
-      
-<img class="Image image" src="/wp-content/uploads/2021/09/Shape-1.png" alt="">
-    </div>
-
-    <div class="content">
-              <h3 class="title">Contributors</h3>
-      
-                <p class="description">Stay up to date with the codebase and discover RFCs, PRs and more.</p>
-            </div>
-  </a>
-							
-  <a class="HorizontalCard card-item" target="_blank">
-
-    <div class="thumbnail">
-      
-<img class="Image image" src="/wp-content/uploads/2021/09/slack-1.png" alt="">
-    </div>
-
-    <div class="content">
-              <h3 class="title">Slack</h3>
-      
-                <p class="description">Discuss advanced topics. Request access: https://bit.ly/ptslack</p>
-            </div>
-  </a>
-							
-  <a class="HorizontalCard card-item" target="_blank">
-
-    <div class="thumbnail">
-      
-<img class="Image image" src="/wp-content/uploads/2021/09/Shape-1.png" alt="">
-    </div>
-
-    <div class="content">
-              <h3 class="title">Contribute a Blog Post</h3>
-      
-                <p class="description">Lorem Ipsum esta con tues les ista<br>con teshs.</p>
-            </div>
-  </a>
-							
-  <a class="HorizontalCard card-item" target="_blank">
-
-    <div class="thumbnail">
-      
-<img class="Image image" src="/wp-content/uploads/2021/09/Shape-1.png" alt="">
-    </div>
-
-    <div class="content">
-              <h3 class="title">PyTorchGithub</h3>
-      
-                <p class="description">Lorem Ipsum esta con tues les ista<br>con teshs.</p>
-            </div>
-  </a>
-							
-  <a class="HorizontalCard card-item" target="_blank">
-
-    <div class="thumbnail">
-      
-<img class="Image image" src="/wp-content/uploads/2021/09/twitter.png" alt="">
-    </div>
-
-    <div class="content">
-              <h3 class="title">Follow Us On Twitter</h3>
-      
-                <p class="description">Lorem Ipsum esta con tues les ista<br>con teshs. @pytorch</p>
-            </div>
-  </a>
-					</div>
-
-			</div>
-</div>
-
-
-
-<div class="ImageCaption ImageCaption">
-
-	<div class="container">
-		<h3 class="heading">RESOURCES</h3>
+	GPU-based instances</h3>
 	</div>
 
+
+
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
 	<div class="container">
-		<div class="thumbnail">
-			
-<img class="Image image" src="/wp-content/uploads/2021/09/Screen-Shot-2021-09-22-at-2.59.01-PM.png" alt="">
-		</div>
-
-		<div class="content">
-			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-							
-<a class="Link link-caret" href="#" target="_self">
-  See more resources  <svg role="img" width="8" height="14" viewbox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.808594 1.125L6.30859 7.125L0.808592 13.125" stroke="#DE3412" stroke-width="1.5"></path>
-</svg>
-</a>					</div>
+				<p class="rich-text"><a href="https://aws.amazon.com/ec2/instance-types/p4/">Amazon EC2 P4d instances</a> deliver the highest performance for machine learning training on AWS. They are powered by the latest NVIDIA A100 Tensor Core GPUs and feature first in the cloud 400 Gbps instance networking. P4d instances are deployed in hyperscale clusters called EC2 UltraClusters that are comprised of more than 4,000 NVIDIA A100 GPUs, Petabit-scale non-blocking networking, and scalable low latency storage with FSx for Lustre. Each EC2 UltraCluster provides supercomputer-class performance to enable you to solve the most complex multi-node ML training tasks.<br><br>For ML inference, AWS Inferentia-based <a href="https://aws.amazon.com/ec2/instance-types/inf1/">Inf1</a> instances provide the lowest cost inference in the cloud. Additionally, <a href="https://aws.amazon.com/ec2/instance-types/g4/">Amazon EC2 G4dn instances</a> featuring NVIDIA T4 GPUs are optimized for GPU-based machine learning inference and small scale training that leverage NVIDIA libraries.</p>
 	</div>
 </div>
 
-
-
-<div class="ImageCaption ImageCaption">
-
-	<div class="container">
-		<h3 class="heading">DOCS</h3>
-	</div>
-
-	<div class="container">
-		<div class="thumbnail">
-			
-<img class="Image image" src="/wp-content/uploads/2021/09/Screen-Shot-2021-09-22-at-2.59.17-PM.png" alt="">
-		</div>
-
-		<div class="content">
-			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-							
-<a class="Link link-caret" target="_self">
-  See More Docs  <svg role="img" width="8" height="14" viewbox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.808594 1.125L6.30859 7.125L0.808592 13.125" stroke="#DE3412" stroke-width="1.5"></path>
-</svg>
-</a>					</div>
-	</div>
-</div>
-
-
-
-<div class="ImageCaption ImageCaption">
-
-	<div class="container">
-		<h3 class="heading">TUTORIALS</h3>
-	</div>
-
-	<div class="container">
-		<div class="thumbnail">
-			
-<img class="Image image" src="/wp-content/uploads/2021/09/Screen-Shot-2021-09-22-at-2.59.30-PM.png" alt="">
-		</div>
-
-		<div class="content">
-			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-							
-<a class="Link link-caret" target="_self">
-  See more Tutorials  <svg role="img" width="8" height="14" viewbox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.808594 1.125L6.30859 7.125L0.808592 13.125" stroke="#DE3412" stroke-width="1.5"></path>
-</svg>
-</a>					</div>
-	</div>
-</div>
-
-
-
-<div class="CardCarousel CardCarousel row-background-light " data-limit="3">
-	<div class="container">
-					<h2 class="heading">CASE STUDIES</h2>
-											
-<a class="Link ctaLink link-caret" href="#" target="_self">
-  See More  <svg role="img" width="8" height="14" viewbox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.808594 1.125L6.30859 7.125L0.808592 13.125" stroke="#DE3412" stroke-width="1.5"></path>
-</svg>
-</a>					</div>
-	<div class="carousel-container container">
-		<div class="carousel">
-			<div class="row">
-									<div class="card-container">
-						
-<div class="Card card- ">
-	<div class="thumbnail">
+<div class="">
+<h3 class="HeadingBlock Heading is-style-subheading HeadingBlock " id="block-e7ab9d88-7eac-48ba-9cee-59698cdd1e44">
 		
-<img class="Image image" src="/wp-content/uploads/2021/09/Screen-Shot-2021-09-22-at-3.05.55-PM.png" alt="">
+	Creating and Launching an Instance</h3>
 	</div>
 
-	<div class="card-content">
-					<h3 class="postTypeLabel">CASE STUDY</h3>
-									<p class="description">Project Spock at Tubi: Understanding Content Using Deep Learning for NLP</p>
-			</div>
 
-	<div class="card-footer">
 
-								
-<a class="Link cta-link" href="#" target="_self">
-  Learn more  <svg role="img" width="8" height="14" viewbox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.808594 1.125L6.30859 7.125L0.808592 13.125" stroke="#DE3412" stroke-width="1.5"></path>
-</svg>
-</a>					
-			</div>
-			<a class="card-link" href="#" target="_self" aria-label="View CASE STUDY: Project Spock at Tubi: Understanding Content Using Deep Learning for NLP"></a>
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text">Once you decided upon your instance type, you will need to create, optionally configure and launch your instance. You can connect to your instance from the web browser or a command-line interface. Here are guides for instance launch for various platforms:</p>
 	</div>
-					</div>
-									<div class="card-container">
-						
-<div class="Card card- ">
-	<div class="thumbnail">
+</div>
+
+
+<div class="blog-list-container blog-list-container">
+	<div class="container">
+		<ul class="list unordered-list indent-con">
+												<li class="item">
+<a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html/">Linux</a>								</li>
+												<li class="item">
+<a href="https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/EC2_GetStarted.html">Windows</a>								</li>
+												<li class="item">
+<a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-using-ec2.html">Command-line</a>								</li>
+					</ul>
+	</div>
+</div>
+
+
+<div class="">
+<h3 class="HeadingBlock Heading is-style-section-heading HeadingBlock " id="block-901cbdb9-1205-4883-b926-052399df8e5b">
 		
-<img class="Image image" src="/wp-content/uploads/2021/09/Screen-Shot-2021-09-22-at-3.06.07-PM.png" alt="">
+	AWS SAGEMAKER</h3>
 	</div>
 
-	<div class="card-content">
-					<h3 class="postTypeLabel">CASE STUDY</h3>
-									<p class="description">How Lyft Uses PyTorch to Power Machine Learning for Their Self-Driving Cars</p>
-			</div>
 
-	<div class="card-footer">
 
-								
-<a class="Link cta-link" href="#" target="_self">
-  Learn more  <svg role="img" width="8" height="14" viewbox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.808594 1.125L6.30859 7.125L0.808592 13.125" stroke="#DE3412" stroke-width="1.5"></path>
-</svg>
-</a>					
-			</div>
-			<a class="card-link" href="#" target="_self" aria-label="View CASE STUDY: How Lyft Uses PyTorch to Power Machine Learning for Their Self-Driving Cars"></a>
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text">With <a href="https://aws.amazon.com/sagemaker">SageMaker</a> service AWS provides a fully-managed service that allows developers and data scientists to build, train, and deploy machine learning models.<br><br>See AWS documentation to learn <a href="https://pytorch.org/get-started/cloud-partners/(https://docs.aws.amazon.com/sagemaker/latest/dg/pytorch.html)">how to configure Amazon SageMaker with PyTorch</a>.</p>
 	</div>
-					</div>
-									<div class="card-container">
-						
-<div class="Card card- ">
-	<div class="thumbnail">
+</div>
+
+<div class="">
+<h3 class="HeadingBlock Heading is-style-section-heading HeadingBlock " id="block-ff5fa0b6-ea70-4332-8f09-64d5bfe5b87d">
 		
-<img class="Image image" src="/wp-content/uploads/2021/09/Screen-Shot-2021-09-22-at-3.06.22-PM.png" alt="">
+	PRE-BUILT AMIS</h3>
 	</div>
 
-	<div class="card-content">
-					<h3 class="postTypeLabel">CASE STUDY</h3>
-									<p class="description">Speeding up drug discovery with advanced machine learning</p>
-			</div>
 
-	<div class="card-footer">
 
-								
-<a class="Link cta-link" href="#" target="_self">
-  Learn more  <svg role="img" width="8" height="14" viewbox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.808594 1.125L6.30859 7.125L0.808592 13.125" stroke="#DE3412" stroke-width="1.5"></path>
-</svg>
-</a>					
-			</div>
-			<a class="card-link" href="#" target="_self" aria-label="View CASE STUDY: Speeding up drug discovery with advanced machine learning"></a>
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text">AWS provides instances (called AWS Deep Learning AMIs) pre-built with a modern version of PyTorch. The available AMIs are:</p>
 	</div>
-					</div>
-							</div>
-		</div>
-			</div>
+</div>
+
+
+<div class="blog-list-container blog-list-container">
+	<div class="container">
+		<ul class="list unordered-list indent-con">
+												<li class="item">Ubuntu								</li>
+												<li class="item">Amazon Linux								</li>
+												<li class="item">Windows 2016								</li>
+					</ul>
+	</div>
 </div>
 
 
 
-<div class="SignUpForm SignUpForm row-background-dark">
-  <div class="container">
 
-    <div class="container-left">
-              <h4 class="title">SIGN UP</h4>
-      
-              <p class="description">Follow the contributors newsletter for curated news from across the PyTorch developer community</p>
-          </div>
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text">Amazon has written a good <a href="https://aws.amazon.com/blogs/machine-learning/get-started-with-deep-learning-using-the-aws-deep-learning-ami/">blog post</a> on getting started with pre-built AMI.</p>
+	</div>
+</div>
 
-    <div class="container-right">
-      <form action="" class="form" target="_blank">
-        <div class="form-left">
-          <input class="input" type="text" autocomplete="on" aria-label="Enter your email address here placeholder=" enter your email address here>
-                      <p class="terms-description">By submitting your email, you agree to receive technical updates and marketing-related electronic communications from Facebook Inc, and its affiliated businesses, including news, events, and updates. You may withdraw your consent and unsubscribe from these at any time, for example, by clicking the unsubscribe link included on our emails. For more information about how Facebook handles your data, please read our Data Policy</p>
-                  </div>
-        <div class="form-right">
-          
-<a class="Link submitButton Button button-square" target="_self">
-  Submit  <svg role="img" width="8" height="14" viewbox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.808594 1.125L6.30859 7.125L0.808592 13.125" stroke="#DE3412" stroke-width="1.5"></path>
-</svg>
-</a>        </div>
-      </form>
-    </div>
-  </div>
-</div>
-</div>
+<div class="">
+<h3 class="HeadingBlock Heading is-style-section-heading HeadingBlock " id="block-6ecc4e17-80ac-425f-abdf-fe4a15dc3c84">
+		
+	INSTALLING PYTORCH FROM SCRATCH</h3>
+	</div>
+
+
+
+<div class="TextBlock is-style-medium-text TextBlock padding-size-small padding-size-small">
+	<div class="container">
+				<p class="rich-text">You may prefer to start with a bare instance to install PyTorch. Once you have connected to your instance, setting up PyTorch is the same as <a href="https://pytorch.org/get-started/cloud-partners/get-started">setting up locally</a> for your operating system of choice.</p>
+	</div>
+</div>        </div>
+      </div>
+
+      		</div>
+	</article>
 
 	</main>
 
@@ -1108,13 +893,16 @@ var commands = [];
 /* ]]> */
 </script>
 <script type="text/javascript" src="/wp-content/themes/pytorch/assets/js/index.bundle.js?ver=1" id="pytorch-classic-js-js"></script>
-<script type="text/javascript" src="/wp-content/themes/pytorch/assets/js/header.bundle.js?ver=1" id="pytorch-header-js"></script>
-<script type="text/javascript" src="/wp-content/themes/pytorch/assets/js/card-carousel.bundle.js?ver=1" id="pytorch-card-carousel-js"></script>
-<script type="text/javascript" src="/wp-content/themes/pytorch/assets/js/card-grid-icon-card.bundle.js?ver=1" id="pytorch-card-grid-icon-card-js"></script>
-<script type="text/javascript" src="/wp-content/themes/pytorch/assets/js/install-graph.bundle.js?ver=1" id="pytorch-install-graph-js"></script>
-<script type="text/javascript" src="/wp-content/themes/pytorch/assets/js/card-grid-horizontal-card.bundle.js?ver=1" id="pytorch-card-grid-horizontal-card-js"></script>
-<script type="text/javascript" src="/wp-content/themes/pytorch/assets/js/image-caption.bundle.js?ver=1" id="pytorch-image-caption-js"></script>
-<script type="text/javascript" src="/wp-content/themes/pytorch/assets/js/sign-up-form.bundle.js?ver=1" id="pytorch-sign-up-form-js"></script>
+<script type="text/javascript" src="/wp-content/themes/pytorch/assets/js/heading.bundle.js?ver=1" id="pytorch-heading-js"></script>
+<script type="text/javascript" src="/wp-content/themes/pytorch/assets/js/text.bundle.js?ver=1" id="pytorch-text-js"></script>
+<script type="text/javascript" src="/wp-content/themes/pytorch/assets/js/blog-list.bundle.js?ver=1" id="pytorch-blog-list-js"></script>
+<script type="text/javascript" id="mkaz-code-syntax-prism-js-js-extra">
+/* <![CDATA[ */
+var prism_settings = {"pluginUrl":"http:\/\/pytorch.local\/wp-content\/plugins\/code-syntax-block\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/code-syntax-block/assets/prism/prism.js?ver=1634724676" id="mkaz-code-syntax-prism-js-js"></script>
+<script type="text/javascript" src="/wp-content/themes/pytorch/src/_components/jump-list.js?ver=1" id="jump-list-js-js"></script>
 
 </body>
 </html>
