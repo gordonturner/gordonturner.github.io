@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: Introducing native PyTorch automatic mixed precision for faster training on NVIDIA GPUs	</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../index.html</link>
+	<atom:link href="/introducing-native-pytorch-automatic-mixed-precision-for-faster-training-on-nvidia-gpus/feed/" rel="self" type="application/rss+xml" />
+	<link>/introducing-native-pytorch-automatic-mixed-precision-for-faster-training-on-nvidia-gpus/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 03 Dec 2021 19:12:45 +0000</lastBuildDate>
 	<sy:updatePeriod>
