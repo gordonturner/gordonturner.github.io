@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: PyTorch 1.6 released w/ Native AMP Support, Microsoft joins as maintainers for Windows	</title>
-	<atom:link href="/pytorch-1-6-released-w-native-amp-support-microsoft-joins-as-maintainers-for-windows/feed/" rel="self" type="application/rss+xml" />
-	<link>/pytorch-1-6-released-w-native-amp-support-microsoft-joins-as-maintainers-for-windows/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 03 Dec 2021 19:11:58 +0000</lastBuildDate>
 	<sy:updatePeriod>
