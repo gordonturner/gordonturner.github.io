@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: PyTorch feature classification changes	</title>
-	<atom:link href="/pytorch-feature-classification-changes/feed/" rel="self" type="application/rss+xml" />
-	<link>/pytorch-feature-classification-changes/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 03 Dec 2021 19:11:30 +0000</lastBuildDate>
 	<sy:updatePeriod>
