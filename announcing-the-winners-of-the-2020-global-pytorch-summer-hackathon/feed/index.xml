@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: Announcing the Winners of the 2020 Global PyTorch Summer Hackathon	</title>
-	<atom:link href="/announcing-the-winners-of-the-2020-global-pytorch-summer-hackathon/feed/" rel="self" type="application/rss+xml" />
-	<link>/announcing-the-winners-of-the-2020-global-pytorch-summer-hackathon/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 03 Dec 2021 18:59:08 +0000</lastBuildDate>
 	<sy:updatePeriod>
