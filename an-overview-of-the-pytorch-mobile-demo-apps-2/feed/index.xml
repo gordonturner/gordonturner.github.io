@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: An Overview of the PyTorch Mobile Demo Apps	</title>
-	<atom:link href="/an-overview-of-the-pytorch-mobile-demo-apps-2/feed/" rel="self" type="application/rss+xml" />
-	<link>/an-overview-of-the-pytorch-mobile-demo-apps-2/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 03 Dec 2021 18:37:45 +0000</lastBuildDate>
 	<sy:updatePeriod>
