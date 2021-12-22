@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: The torch.linalg module: Accelerated Linear Algebra with Autograd in PyTorch	</title>
-	<atom:link href="/the-torch-linalg-module-accelerated-linear-algebra-with-autograd-in-pytorch/feed/" rel="self" type="application/rss+xml" />
-	<link>/the-torch-linalg-module-accelerated-linear-algebra-with-autograd-in-pytorch/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 03 Dec 2021 18:36:58 +0000</lastBuildDate>
 	<sy:updatePeriod>
