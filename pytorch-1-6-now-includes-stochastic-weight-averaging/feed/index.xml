@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: PyTorch 1.6 now includes Stochastic Weight Averaging	</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../index.html</link>
+	<atom:link href="/pytorch-1-6-now-includes-stochastic-weight-averaging/feed/" rel="self" type="application/rss+xml" />
+	<link>/pytorch-1-6-now-includes-stochastic-weight-averaging/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 03 Dec 2021 19:01:53 +0000</lastBuildDate>
 	<sy:updatePeriod>
