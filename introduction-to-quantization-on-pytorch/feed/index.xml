@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: Introduction to Quantization on PyTorch	</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../index.html</link>
+	<atom:link href="/introduction-to-quantization-on-pytorch/feed/" rel="self" type="application/rss+xml" />
+	<link>/introduction-to-quantization-on-pytorch/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 03 Dec 2021 19:15:09 +0000</lastBuildDate>
 	<sy:updatePeriod>
