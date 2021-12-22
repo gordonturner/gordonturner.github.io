@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: New PyTorch Library Releases in PyTorch 1.9, including TorchVision, TorchAudio, and more	</title>
-	<atom:link href="/new-pytorch-library-releases-in-pytorch-1-9-including-torchvision-torchaudio-and-more/feed/" rel="self" type="application/rss+xml" />
-	<link>/new-pytorch-library-releases-in-pytorch-1-9-including-torchvision-torchaudio-and-more/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 03 Dec 2021 18:43:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
