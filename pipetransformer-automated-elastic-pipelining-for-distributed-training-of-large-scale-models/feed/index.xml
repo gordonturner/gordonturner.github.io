@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: PipeTransformer: Automated Elastic Pipelining for Distributed Training of Large-scale Models	</title>
-	<atom:link href="/pipetransformer-automated-elastic-pipelining-for-distributed-training-of-large-scale-models/feed/" rel="self" type="application/rss+xml" />
-	<link>/pipetransformer-automated-elastic-pipelining-for-distributed-training-of-large-scale-models/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Thu, 09 Dec 2021 20:48:44 +0000</lastBuildDate>
 	<sy:updatePeriod>
