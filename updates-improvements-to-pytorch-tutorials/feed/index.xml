@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: Updates &#038; Improvements to PyTorch Tutorials	</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../index.html</link>
+	<atom:link href="/updates-improvements-to-pytorch-tutorials/feed/" rel="self" type="application/rss+xml" />
+	<link>/updates-improvements-to-pytorch-tutorials/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 03 Dec 2021 19:12:52 +0000</lastBuildDate>
 	<sy:updatePeriod>
