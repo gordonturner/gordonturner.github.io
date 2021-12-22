@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: PyTorch 1.4 released, domain libraries updated	</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../index.html</link>
+	<atom:link href="/pytorch-1-4-released-domain-libraries-updated/feed/" rel="self" type="application/rss+xml" />
+	<link>/pytorch-1-4-released-domain-libraries-updated/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 03 Dec 2021 19:15:54 +0000</lastBuildDate>
 	<sy:updatePeriod>
